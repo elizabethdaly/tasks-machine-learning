@@ -3,7 +3,7 @@
 
 
 <p align="middle">
-  <img src="images/python.jpg" width="100" />
+  <img src="img/python.jpg" width="100" />
 </p>
 
 ## Description
@@ -11,10 +11,10 @@
 This README describes work done for the Machine Learning and Statistics module project, due 18 December 2020.
 
 We have been asked to complete four tasks:
-- one
-- two
-- three
-- four
+- Write a Python function called '''sqrt2''' that calculates and prints to the screen the square root of 2 to 100 decimal places. Your code should not depend on any module from the standard library or otherwise (no '''import''' statements allowed).
+- Use a Chi-squared test to analyse whether two categorical variables are independent. Use '''scipy.stats''' to analyse the data provided in the contingency table [here](https://en.wikipedia.org/wiki/Chi-squared_test), and verify that the Chi-squared value based on this data is 24.6.
+- Microsoft Excel has two different versions of the standard deviation calculation, STDEV.P and STDEV.S. STEDV.p uses this calculation '''np.sqrt(np.sum((x - np.mean(x))**2)/len(x))''' where '''x''' is a '''numpy''' array. STDEV.S has '''len(x)-1''' in the denominator. Research the functions and perform a simulation demonstrating that STDEV.S is a better estimate for the standard deviation of a population when performed on a sample.
+- Use '''scikit-learn''' to apply k-means clustering to Fisher's Iris data set. Explain how the code works, how accurate it might be, and how it could be used to make predications of Iris species.
 
 ## Getting started
 
@@ -28,7 +28,7 @@ These instructions will get you a copy of the project up and running on your loc
 - [NumPy](https://numpy.org/)
 - [SciPy](https://www.scipy.org/)
 - [Pandas](https://pandas.pydata.org/)
-- [Scikit0learn]
+- [Scikit-learn](https://scikit-learn.org/stable/)
 
 ### Installing
 Download and install the Anaconda distribution of Python from the link above. The other packages (Jupyter notebook, Pandas, matplotlib, NumPy, and Scikit-learn) come as part of that distribution.
