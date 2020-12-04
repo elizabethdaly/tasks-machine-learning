@@ -8,7 +8,7 @@
 
 ## Description
 
-This README describes work done for the Machine Learning and Statistics module project, due 18 December 2020.
+This README describes work done for the Machine Learning and Statistics module tasks, due 18 December 2020.
 
 We have been asked to complete four tasks:
 - Write a Python function called ```sqrt2``` that calculates and prints to the screen the square root of 2 to 100 decimal places. Your code should not depend on any module from the standard library or otherwise (no ```import``` statements allowed).
@@ -59,7 +59,7 @@ https://github.com/elizabethdaly/tasks-machine-learning/blob/master/tasks-machin
 ```
 
 ## Additional files
-- All images intended for inclusion in this README or the Jupyter notebook are located in the **img** subdirectory of this repository.
+All images intended for inclusion in this README or the Jupyter notebook are located in the **img** subdirectory of this repository.
 
 ## Author
 Elizabeth Daly for HDip in Data Analytics 2019/2020.
