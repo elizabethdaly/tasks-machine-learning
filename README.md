@@ -22,13 +22,17 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 - [Anaconda distribution of Python](https://www.anaconda.com/distribution/)
-- [Python Software Foundation](https://www.python.org/)
+- [Python Software Foundation](https://www.python.org/) My version of Python: 3.8.5
 - [Project Jupyter](https://jupyter.org/)
 - [matplotlib: Python plotting library](https://matplotlib.org/)
 - [NumPy](https://numpy.org/)
 - [SciPy](https://www.scipy.org/)
 - [Pandas](https://pandas.pydata.org/)
 - [Scikit-learn](https://scikit-learn.org/stable/)
+- [math module](https://docs.python.org/3/library/math.html)
+- [decimal module](https://docs.python.org/3/library/decimal.html)
+- [seaborn](https://seaborn.pydata.org/index.html)
+
 
 ### Installing
 Download and install the Anaconda distribution of Python from the link above. The other packages (Jupyter notebook, Pandas, matplotlib, NumPy, and Scikit-learn) come as part of that distribution.
@@ -38,6 +42,8 @@ This project is hosted on [GitHub](https://github.com/) at
 https://github.com/elizabethdaly/tasks-machine-learning
 
 The analysis takes the form of a single Jupyter notebook of filename **tasks-machine-learning.ipynb**
+
+The notebook contains all code, background investigations, references, and results analysis for this assignment. Required packages were imported as needed in the notebook.
 
 ### Instructions for cloning the repository
 A repository on GitHub exists as a remote repository. You can clone this repository to create a local copy on your computer by following these instructions:
