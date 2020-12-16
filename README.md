@@ -14,7 +14,7 @@ We have been asked to complete four tasks:
 - Write a Python function called ```sqrt2``` that calculates and prints to the screen the square root of 2 to 100 decimal places. Your code should not depend on any module from the standard library or otherwise (no ```import``` statements allowed).
 - Use a Chi-squared test to analyse whether two categorical variables are independent. Use ```scipy.stats``` to analyse the data provided in the contingency table [here](https://en.wikipedia.org/wiki/Chi-squared_test), and verify that the Chi-squared value based on this data is 24.6.
 - Microsoft Excel has two different versions of the standard deviation calculation, STDEV.P and STDEV.S. STEDV.p uses this calculation ```np.sqrt(np.sum((x - np.mean(x))**2)/len(x))``` where ```x``` is a ```numpy``` array. STDEV.S has ```len(x)-1``` in the denominator. Research the functions and perform a simulation demonstrating that STDEV.S is a better estimate for the standard deviation of a population when performed on a sample.
-- Use ```scikit-learn``` to apply k-means clustering to Fisher's Iris data set. Explain how the code works, how accurate it might be, and how it could be used to make predications of Iris species.
+- Use ```scikit-learn``` to apply k-means clustering to Fisher's Iris data set. Explain how the code works, how accurate it might be, and how it could be used to make predications of Iris species. **NOTE: I had completed this task fully when the correction was announced. I used k-means to predict cluster as in the original task.**
 
 ## Getting started
 
